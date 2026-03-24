@@ -1,0 +1,242 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String    @id @default(cuid())
+  phone            String?   @unique
+  name             String?
+  email            String?
+  googleId         String?
+  lineId           String?
+  password         String?
+  role             String    @default("CUSTOMER")
+  permissions      String?   @db.LongText
+  birthDate        DateTime?
+  birthTime        String?
+  avatarUrl        String?
+  isActive         Boolean   @default(true)
+  resetToken       String?   @db.LongText
+  resetTokenExpiry DateTime?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  orders             Order[]
+  addresses          Address[]
+  ceremonyProfiles   CeremonyProfile[]
+}
+
+model Address {
+  id         String  @id @default(cuid())
+  user       User    @relation(fields: [userId], references: [id])
+  userId     String
+  name       String
+  phone      String
+  address    String  @db.LongText
+  city       String
+  postalCode String
+  isDefault  Boolean @default(false)
+}
+
+model Category {
+  id        String    @id @default(cuid())
+  name      String
+  slug      String    @unique
+  imageUrl  String?
+  sortOrder Int       @default(0)
+  products  Product[]
+}
+
+model Product {
+  id               String         @id @default(cuid())
+  name             String
+  slug             String         @unique
+  summary          String?        @db.LongText
+  description      String         @db.LongText
+  price            Decimal        @db.Decimal(10, 2)
+  stock            Int            @default(0)
+  category         Category       @relation(fields: [categoryId], references: [id])
+  categoryId       String
+  images           String?        @db.LongText
+  isCeremony              Boolean        @default(false)
+  isOneOnOne              Boolean        @default(false)
+  specialVersionEnabled   Boolean        @default(false)
+  specialVersionSurcharge Decimal        @db.Decimal(10, 2) @default(0)
+  specialVersionLabel     String?
+  ceremonyEvent     CeremonyEvent? @relation(fields: [ceremonyEventId], references: [id])
+  ceremonyEventId   String?
+  ceremonyDate      DateTime?
+  ceremonyLocation  String?
+  isActive          Boolean        @default(true)
+  sortOrder        Int            @default(0)
+  publishAt        DateTime?
+  unpublishAt      DateTime?
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  orderItems       OrderItem[]
+}
+
+model Order {
+  id              String    @id @default(cuid())
+  orderNumber     String    @unique
+  user            User      @relation(fields: [userId], references: [id])
+  userId          String
+  status          String    @default("PENDING")
+  paymentMethod   String
+  paymentStatus   String    @default("PENDING")
+  subtotal        Decimal   @db.Decimal(10, 2)
+  discountAmount  Decimal   @db.Decimal(10, 2) @default(0)
+  totalAmount     Decimal   @db.Decimal(10, 2)
+  couponCode      String?
+  notes           String?   @db.LongText
+  shippingName    String?
+  shippingPhone   String?
+  shippingAddress String?   @db.LongText
+  ecpayTradeNo         String?
+  linePayTransactionId String?
+  bankTransferRef      String?
+  shippingMethod  String?   @default("HOME_DELIVERY")
+  shippingFee     Decimal   @db.Decimal(10, 2) @default(0)
+  cvsStoreId      String?
+  cvsStoreName    String?
+  paidAt          DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  items           OrderItem[]
+  ceremonies      CeremonyInfo[]
+  ceremonyPhotos  CeremonyPhoto[]
+}
+
+model CeremonyPhoto {
+  id        String   @id @default(cuid())
+  order     Order    @relation(fields: [orderId], references: [id])
+  orderId   String
+  url       String   @db.VarChar(500)
+  caption   String?  @db.VarChar(200)
+  createdAt DateTime @default(now())
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  order     Order   @relation(fields: [orderId], references: [id])
+  orderId   String
+  product   Product @relation(fields: [productId], references: [id])
+  productId String
+  name      String
+  price     Decimal @db.Decimal(10, 2)
+  quantity  Int
+}
+
+model CeremonyEvent {
+  id          String         @id @default(cuid())
+  name        String
+  eventDate   DateTime
+  description String?        @db.LongText
+  isActive    Boolean        @default(true)
+  createdAt   DateTime       @default(now())
+  ceremonies  CeremonyInfo[]
+  products    Product[]
+}
+
+model CeremonyInfo {
+  id               String         @id @default(cuid())
+  order            Order          @relation(fields: [orderId], references: [id])
+  orderId          String
+  participantIndex Int            @default(0)
+  name             String
+  englishName      String?
+  phone            String
+  birthDate        DateTime
+  birthTime        String?
+  lunarBirth       String?
+  photoPath        String
+  notes            String?        @db.LongText
+  ceremonyDate     DateTime?
+  ceremonyEvent    CeremonyEvent? @relation(fields: [ceremonyEventId], references: [id])
+  ceremonyEventId  String?
+  preferredTime    DateTime?
+  confirmedTime    DateTime?
+  timeConfirmed    Boolean        @default(false)
+  createdAt        DateTime       @default(now())
+}
+
+model CeremonyProfile {
+  id          String   @id @default(cuid())
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String
+  name        String
+  englishName String?
+  phone       String
+  birthDate   String
+  birthTime   String?
+  lunarBirth  String?
+  photoPath   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Discount {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  description String?
+  type        String
+  value       Decimal  @db.Decimal(10, 2)
+  minAmount   Decimal? @db.Decimal(10, 2)
+  maxUses     Int?
+  usedCount   Int      @default(0)
+  expiresAt   DateTime?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+}
+
+model VisitLog {
+  id        String   @id @default(cuid())
+  sessionId String?
+  userId    String?
+  path      String
+  referrer  String?
+  ipAddress String?
+  userAgent String?  @db.LongText
+  createdAt DateTime @default(now())
+}
+
+model LoginLog {
+  id         String   @id @default(cuid())
+  userId     String?
+  userName   String?
+  provider   String
+  identifier String?
+  success    Boolean
+  ipAddress  String?
+  userAgent  String?  @db.LongText
+  createdAt  DateTime @default(now())
+}
+
+model SiteSettings {
+  id           String  @id @default("singleton")
+  siteName     String  @default("泰國佛牌")
+  logoUrl      String?
+  bannerText   String?
+  bankName     String?
+  bankAccount  String?
+  bankHolder   String?
+  contactPhone  String?
+  contactEmail  String?
+  shippingInfo  String? @default("滿 NT$3,000 免運費 · 宅配 2–5 個工作日")
+  paymentInfo   String? @default("安全付款 · 綠界金流保障")
+  guaranteeInfo        String? @default("正品保證 · 泰國直接進口")
+  contactLine          String? @default("@thai-amulet")
+  contactServiceHours  String? @default("週一至週六 10:00-20:00")
+  footerDescription    String? @default("正品泰國佛牌專賣店，提供各式佛牌及法事服務，品質保障，誠信經營。")
+  shoppingNotes        String? @db.LongText
+  shippingMethods      String? @db.LongText
+  homeDeliveryFee        Int     @default(100)
+  cvsPickupFee           Int     @default(60)
+  freeShippingThreshold  Int     @default(3000)
+  enableHomeDelivery     Boolean @default(true)
+  enableCvsPickup        Boolean @default(true)
+}

@@ -25,3 +25,35 @@ body {
     text-wrap: balance;
   }
 }
+
+/* ── 列印全域設定 ─────────────────────────────────── */
+@media print {
+  /* 隱藏所有元素 */
+  body * {
+    visibility: hidden;
+  }
+
+  /* 只顯示標有 print-area 的區塊及其子元素 */
+  .print-area,
+  .print-area * {
+    visibility: visible;
+  }
+
+  /* 將 print-area 貼到頁面左上角，撐滿寬度 */
+  .print-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+  }
+
+  /* 隱藏操作按鈕、標題等非資料區塊 */
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+  }
+}

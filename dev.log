@@ -1,0 +1,2038 @@
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ⚠ Invalid next.config.mjs options detected: 
+ ⚠     Unrecognized key(s) in object: 'serverExternalPackages'
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Ready in 2.2s
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 987ms (697 modules)
+ GET /api/auth/session 200 in 2196ms
+ GET /api/auth/session 200 in 27ms
+ GET /api/auth/session 200 in 16ms
+ ○ Compiling /src/middleware ...
+ ✓ Compiled /src/middleware in 540ms (133 modules)
+ ○ Compiling /admin/ceremonies ...
+ ✓ Compiled /admin/ceremonies in 2.5s (1223 modules)
+ ✓ Compiled in 772ms (269 modules)
+ GET /admin/ceremonies 200 in 3417ms
+ ○ Compiling /api/uploads/[filename] ...
+ ✓ Compiled /api/uploads/[filename] in 1603ms (957 modules)
+ GET /api/auth/session 200 in 755ms
+ GET /api/auth/session 200 in 14ms
+ GET /api/auth/session 200 in 14ms
+ GET /api/auth/session 200 in 17ms
+ GET /api/auth/session 200 in 19ms
+ GET /api/auth/session 200 in 15ms
+ GET /api/uploads/1773502533410-2ca30d562636d76e.jpg 200 in 2626ms
+ GET /api/uploads/1773542501819-b0afd92cfa727395.jpg 200 in 2628ms
+ GET /api/uploads/1773557526966-raqw2j.jpg 200 in 2629ms
+ GET /admin/ceremonies 200 in 127ms
+ GET /api/uploads/1773557526966-raqw2j.jpg 200 in 41ms
+ GET /api/uploads/1773542501819-b0afd92cfa727395.jpg 404 in 51ms
+ GET /api/uploads/1773502533410-2ca30d562636d76e.jpg 404 in 53ms
+ ✓ Compiled /favicon.ico in 182ms (986 modules)
+ GET /favicon.ico 200 in 454ms
+ GET /api/auth/session 200 in 431ms
+ GET /api/auth/session 200 in 15ms
+ GET /api/auth/session 200 in 13ms
+ GET /api/auth/session 200 in 17ms
+ GET /api/auth/session 200 in 12ms
+ GET /api/auth/session 200 in 12ms
+ ○ Compiling /admin/orders/[id] ...
+ ✓ Compiled /admin/orders/[id] in 591ms (1248 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., orderNumber: ..., userId: ..., status: ..., paymentMethod: ..., paymentStatus: ..., subtotal: Decimal, discountAmount: ..., totalAmount: ..., couponCode: ..., notes: ..., shippingName: ..., shippingPhone: ..., shippingAddress: ..., ecpayTradeNo: ..., bankTransferRef: ..., paidAt: ..., createdAt: ..., updatedAt: ..., items: ..., ceremonies: ..., user: ...}
+                                                                                                          ^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., orderNumber: ..., userId: ..., status: ..., paymentMethod: ..., paymentStatus: ..., subtotal: ..., discountAmount: Decimal, totalAmount: ..., couponCode: ..., notes: ..., shippingName: ..., shippingPhone: ..., shippingAddress: ..., ecpayTradeNo: ..., bankTransferRef: ..., paidAt: ..., createdAt: ..., updatedAt: ..., items: ..., ceremonies: ..., user: ...}
+                                                                                                                               ^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., orderNumber: ..., userId: ..., status: ..., paymentMethod: ..., paymentStatus: ..., subtotal: ..., discountAmount: ..., totalAmount: Decimal, couponCode: ..., notes: ..., shippingName: ..., shippingPhone: ..., shippingAddress: ..., ecpayTradeNo: ..., bankTransferRef: ..., paidAt: ..., createdAt: ..., updatedAt: ..., items: ..., ceremonies: ..., user: ...}
+                                                                                                                                                 ^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., orderId: ..., productId: ..., name: ..., price: Decimal, quantity: ...}
+                                                            ^^^^^^^
+ ✓ Compiled /admin/orders in 390ms (1252 modules)
+ GET /api/uploads/1773542501819-b0afd92cfa727395.jpg 404 in 27ms
+ GET /api/uploads/1773502533410-2ca30d562636d76e.jpg 404 in 31ms
+ ✓ Compiled /admin/products in 248ms (1254 modules)
+ ✓ Compiled /admin/products/[id]/edit in 489ms (1461 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ ✓ Compiled /api/products/[id] in 217ms (1065 modules)
+ PUT /api/products/cmmqhic3500004se3b7zc25fa 200 in 1031ms
+ GET /admin/products?_rsc=1pzah 200 in 51ms
+ ✓ Compiled /api/uploads/[filename] in 175ms (1068 modules)
+ GET /api/uploads/1773542501819-b0afd92cfa727395.jpg 404 in 266ms
+ GET /api/uploads/1773557526966-raqw2j.jpg 200 in 279ms
+ GET /api/uploads/1773502533410-2ca30d562636d76e.jpg 404 in 270ms
+ ✓ Compiled /api/auth/[...nextauth] in 280ms (1070 modules)
+ GET /api/auth/session 200 in 363ms
+ GET /api/auth/session 200 in 20ms
+ GET /api/auth/session 200 in 17ms
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ ✓ Compiled in 632ms (1437 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 171ms
+ ✓ Compiled in 395ms (1437 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 85ms
+ ✓ Compiled in 390ms (1437 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 101ms
+ ✓ Compiled in 466ms (1437 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 103ms
+ ✓ Compiled in 179ms (376 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 63ms
+ ✓ Compiled in 203ms (376 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 49ms
+ ✓ Compiled in 205ms (376 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 45ms
+ ✓ Compiled in 589ms (1432 modules)
+ ⚠ Fast Refresh had to perform a full reload when ulet\\thai-amulet\\node_modules\\next\\dist\\client\\link.js","ids":["*"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 403ms
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit 200 in 234ms
+ ○ Compiling /api/auth/[...nextauth] ...
+ ✓ Compiled /api/auth/[...nextauth] in 791ms (1089 modules)
+ ✓ Compiled (1091 modules)
+ GET /favicon.ico 200 in 1143ms
+ GET /api/auth/session 200 in 1120ms
+ GET /api/auth/session 200 in 21ms
+ GET /api/auth/session 200 in 23ms
+ GET /api/auth/session 200 in 19ms
+ GET /api/auth/session 200 in 14ms
+ GET /api/auth/session 200 in 16ms
+ ✓ Compiled in 276ms (374 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 122ms
+ ✓ Compiled in 294ms (374 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit?_rsc=rb3rj 200 in 88ms
+ GET /api/auth/session 200 in 41ms
+ GET /api/auth/session 200 in 23ms
+ GET /api/auth/session 200 in 23ms
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit 200 in 185ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 633ms (1439 modules)
+ GET /_next/static/css/app/layout.css?v=1773558909013 404 in 802ms
+ GET /_next/static/chunks/webpack.js?v=1773558909013 404 in 579ms
+ GET /_next/static/chunks/main-app.js?v=1773558909013 404 in 577ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 577ms
+ GET /_next/static/chunks/app/layout.js 404 in 577ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 576ms
+ GET /_next/static/chunks/app/(admin)/admin/products/%5Bid%5D/edit/page.js 404 in 57ms
+ ✓ Compiled /favicon.ico in 199ms (1092 modules)
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 241ms
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ...}
+                                                                              ^^^^^^^
+ GET /admin/products/cmmqhic3500004se3b7zc25fa/edit 200 in 324ms
+ ⨯ Failed to generate static paths for /admin/products/[id]/edit:
+Error: Cannot find module './vendor-chunks/@auth.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\products\[id]\edit\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\products\\[id]\\edit\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+ GET /_next/static/css/app/layout.css?v=1773558912527 404 in 26ms
+ GET /_next/static/chunks/main-app.js?v=1773558912527 404 in 55ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 53ms
+ GET /_next/static/chunks/app/(admin)/admin/products/%5Bid%5D/edit/page.js 404 in 52ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 49ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 28ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 13ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 12ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 12ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 12ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 13ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\favicon.ico\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 14ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 546ms (1456 modules)
+ GET /admin 200 in 908ms
+ GET /_next/static/css/app/layout.css?v=1773558927937 404 in 34ms
+ GET /_next/static/chunks/main-app.js?v=1773558927937 404 in 45ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 42ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 40ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 23ms
+ GET /admin 200 in 171ms
+ GET /_next/static/css/app/layout.css?v=1773559046272 404 in 30ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 69ms
+ GET /_next/static/chunks/main-app.js?v=1773559046272 404 in 74ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 65ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 17ms
+ GET /admin 200 in 131ms
+ GET /_next/static/css/app/layout.css?v=1773559079220 404 in 73ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 39ms
+ GET /_next/static/chunks/main-app.js?v=1773559079220 404 in 43ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 38ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 21ms
+ GET /admin/products 200 in 88ms
+ GET /_next/static/css/app/layout.css?v=1773559080863 404 in 37ms
+ GET /_next/static/chunks/main-app.js?v=1773559080863 404 in 48ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 46ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 44ms
+ GET /_next/static/chunks/app/(admin)/admin/products/page.js 404 in 41ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 19ms
+ ✓ Compiled /admin/orders in 380ms (1094 modules)
+ GET /admin/orders 200 in 525ms
+ GET /_next/static/css/app/layout.css?v=1773559083203 404 in 38ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 46ms
+ GET /_next/static/chunks/app/(admin)/admin/orders/page.js 404 in 44ms
+ GET /_next/static/chunks/main-app.js?v=1773559083203 404 in 51ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 45ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\orders\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\orders\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 24ms
+prisma:error 
+Invalid `prisma.product.findMany()` invocation:
+
+{
+  where: {
+    isCeremony: true
+  },
+  select: {
+    id: true,
+    name: true,
+    ceremonyDate: true,
+    ceremonyLocation: true
+  },
+  orderBy: {
+    ceremonyDate: "desc",
+    ~~~~~~~~~~~~
+?   id?: SortOrder,
+?   name?: SortOrder,
+?   slug?: SortOrder,
+?   summary?: SortOrder | SortOrderInput,
+?   description?: SortOrder,
+?   price?: SortOrder,
+?   stock?: SortOrder,
+?   categoryId?: SortOrder,
+?   images?: SortOrder | SortOrderInput,
+?   isCeremony?: SortOrder,
+?   ceremonyEventId?: SortOrder | SortOrderInput,
+?   isActive?: SortOrder,
+?   sortOrder?: SortOrder,
+?   publishAt?: SortOrder | SortOrderInput,
+?   unpublishAt?: SortOrder | SortOrderInput,
+?   createdAt?: SortOrder,
+?   updatedAt?: SortOrder,
+?   category?: CategoryOrderByWithRelationInput,
+?   ceremonyEvent?: CeremonyEventOrderByWithRelationInput,
+?   orderItems?: OrderItemOrderByRelationAggregateInput
+  }
+}
+
+Unknown argument `ceremonyDate`. Available options are marked with ?.
+ GET /admin/ceremonies 200 in 89ms
+ GET /_next/static/css/app/layout.css?v=1773559085530 404 in 55ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 48ms
+ GET /_next/static/chunks/main-app.js?v=1773559085530 404 in 52ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 49ms
+ GET /_next/static/chunks/app/(admin)/admin/ceremonies/page.js 404 in 48ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\orders\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\orders\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 24ms
+ ○ Compiling /admin/users ...
+ ✓ Compiled /admin/users in 944ms (1498 modules)
+ GET /admin/users 200 in 1141ms
+ GET /_next/static/css/app/layout.css?v=1773559088668 404 in 55ms
+ GET /_next/static/chunks/app/(admin)/layout.js 404 in 40ms
+ GET /_next/static/chunks/main-app.js?v=1773559088668 404 in 46ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 43ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(admin)\admin\users\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(admin)\\admin\\users\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 26ms
+ ✓ Compiled /api/auth/[...nextauth] in 307ms (1124 modules)
+ GET /api/auth/session 200 in 392ms
+ GET /api/auth/session 200 in 20ms
+ ⨯ Failed to generate static paths for /api/auth/[...nextauth]:
+Error: Cannot find module './vendor-chunks/@auth.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\api\auth\[...nextauth]\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+ ⨯ Failed to generate static paths for /api/auth/[...nextauth]:
+Error: Cannot find module './vendor-chunks/@auth.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\api\auth\[...nextauth]\route.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\api\\auth\\[...nextauth]\\route.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+ ✓ Compiled /orders in 464ms (1519 modules)
+ GET /orders 200 in 644ms
+ GET /_next/static/css/app/layout.css?v=1773559092739 404 in 52ms
+ GET /_next/static/chunks/main-app.js?v=1773559092739 404 in 38ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 36ms
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(shop)\orders\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16110
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\favicon.ico\route.js:12:16153)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:818:17)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(shop)\\orders\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 27ms
+ ✓ Compiled in 625ms (1453 modules)
+ ✓ Compiled in 416ms (1453 modules)
+ ✓ Compiled /orders in 199ms (1070 modules)
+ GET /orders 200 in 655ms
+ ✓ Compiled /_not-found in 327ms (1454 modules)
+ GET /_next/static/css/app/layout.css?v=1773560037316 404 in 454ms
+ GET /_next/static/chunks/main-app.js?v=1773560037316 404 in 323ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 321ms
+ ✓ Compiled /favicon.ico in 460ms (1102 modules)
+ GET /favicon.ico 200 in 546ms
+ ✓ Compiled in 614ms (1453 modules)
+ ✓ Compiled in 533ms (1453 modules)
+ ○ Compiling /cart ...
+ ✓ Compiled /cart in 995ms (1479 modules)
+ GET /cart 200 in 1180ms
+ ✓ Compiled /_not-found in 286ms (1482 modules)
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:3954
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:4001)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\_not-found\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:3954
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:4001)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\_not-found\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:3954
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:4001)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\_not-found\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:3954
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:4001)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\_not-found\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './8948.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-middleware.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at __webpack_require__.f.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:203:28)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js:167:22)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:3954
+    at Object.<anonymous> (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\_not-found\page.js:1:4001)
+    at Module._compile (node:internal/modules/cjs/loader:1688:14)
+    at Object..js (node:internal/modules/cjs/loader:1820:10)
+    at Module.load (node:internal/modules/cjs/loader:1423:32)
+    at Function._load (node:internal/modules/cjs/loader:1246:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js:109:84)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderErrorToResponseImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2090:30)
+    at async pipe.req.req (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:2056:30)
+    at async DevServer.pipeImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\base-server.js:922:25)
+    at async D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:374:24)
+    at async requestHandlerImpl (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\_not-found\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1131ms (1708 modules)
+ GET /_next/static/chunks/main-app.js?v=1773560572590 500 in 5293ms
+ GET /_next/static/chunks/app-pages-internals.js 500 in 5292ms
+ GET /_next/static/chunks/app/(shop)/layout.js 500 in 5290ms
+ GET /_next/static/css/app/layout.css?v=1773560572590 500 in 5442ms
+ GET /_next/static/chunks/app/layout.js 500 in 5290ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1717ms (1715 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "糸一革糸", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ..., category: ...}
+                                                                            ^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "測試龍婆托佛牌", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ..., category: ...}
+                                                                               ^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {id: ..., name: "發財好運法事", slug: ..., summary: ..., description: ..., price: Decimal, stock: ..., categoryId: ..., images: ..., isCeremony: ..., ceremonyEventId: ..., isActive: ..., sortOrder: ..., publishAt: ..., unpublishAt: ..., createdAt: ..., updatedAt: ..., category: ...}
+                                                                              ^^^^^^^
+ GET / 200 in 2143ms
+ GET /_next/static/css/app/layout.css?v=1773560584570 404 in 24ms
+ GET /_next/static/chunks/main-app.js?v=1773560584570 404 in 206ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 204ms
+ GET /_next/static/chunks/app/(shop)/layout.js 404 in 204ms
+ GET /_next/static/chunks/app/layout.js 404 in 202ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz_' -> 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\cache\webpack\client-development-fallback\0.pack.gz'
+ ✓ Compiled /products/[slug] in 430ms (1731 modules)
+ ⨯ Error: Cannot find module './vendor-chunks/@auth.js'
+Require stack:
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(shop)\products\[slug]\page.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1365:15)
+    at D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1021:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1026:22)
+    at Function._load (node:internal/modules/cjs/loader:1175:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1445:12)
+    at mod.require (D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\webpack-runtime.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\.next\\server\\app\\(shop)\\products\\[slug]\\page.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\Tools\\OneDrive\\Source\\Claude\\ThaiAmulet\\thai-amulet\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/products/product-1773502350986'
+}
+ GET /products/product-1773502350986 500 in 822ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\vendor-chunks\process.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/process' in D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server for build dependencies doesn't lead to expected result 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\vendor-chunks\process.js', but to 'Error: Can't resolve './vendor-chunks/process' in 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/process (expected D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\vendor-chunks\process.js)
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\pages\_error.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\pages\_error.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/has-flag' in D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server for build dependencies doesn't lead to expected result 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\vendor-chunks\has-flag.js', but to 'Error: Can't resolve './vendor-chunks/has-flag' in 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/has-flag (expected D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\vendor-chunks\has-flag.js)
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\pages\_error.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\pages\_error.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/native-duplexpair' in D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server for build dependencies doesn't lead to expected result 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\vendor-chunks\native-duplexpair.js', but to 'Error: Can't resolve './vendor-chunks/native-duplexpair' in 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/native-duplexpair (expected D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\vendor-chunks\native-duplexpair.js)
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\pages\_error.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\pages\_error.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ✓ Compiled in 899ms (1693 modules)
+ ✓ Compiled in 664ms (1693 modules)
+ ✓ Compiled in 239ms (595 modules)
+ ✓ Compiled in 284ms (595 modules)
+ ✓ Compiled in 237ms (595 modules)
+ ✓ Compiled in 712ms (1693 modules)
+ ✓ Compiled in 492ms (1693 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(shop)\products\[slug]\page.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/(shop)/products/[slug]/page' in D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(shop)\products\[slug]\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/(shop)/products/[slug]/page' in 'D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/(shop)/products/[slug]/page (expected D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\.next\server\app\(shop)\products\[slug]\page.js)
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\Tools\OneDrive\Source\Claude\ThaiAmulet\thai-amulet\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ✓ Compiled in 402ms (595 modules)
+ ✓ Compiled in 227ms (595 modules)
+ ✓ Compiled in 209ms (595 modules)
+ ✓ Compiled in 210ms (595 modules)
+ ✓ Compiled in 251ms (595 modules)
+ ✓ Compiled in 259ms (595 modules)
+ ✓ Compiled in 219ms (595 modules)
+ ✓ Compiled in 192ms (595 modules)
+ ✓ Compiled in 252ms (595 modules)
+ ✓ Compiled in 370ms (595 modules)
+ ✓ Compiled in 224ms (595 modules)
+ ✓ Compiled in 205ms (595 modules)
+ ✓ Compiled in 211ms (595 modules)
+ ✓ Compiled in 630ms (1693 modules)
+ ✓ Compiled in 474ms (1693 modules)
+ ✓ Compiled in 876ms (1698 modules)
+ ✓ Compiled in 683ms (1698 modules)
+ ✓ Compiled in 237ms (597 modules)
+ ✓ Compiled in 196ms (597 modules)
+ ✓ Compiled in 204ms (597 modules)
+ ✓ Compiled in 262ms (597 modules)
+ ✓ Compiled in 232ms (597 modules)
+ ✓ Compiled in 520ms (597 modules)
+ ✓ Compiled in 632ms (597 modules)
+ ✓ Compiled in 344ms (597 modules)
+ ✓ Compiled in 237ms (597 modules)
+ ✓ Compiled in 203ms (597 modules)
+ ✓ Compiled in 218ms (597 modules)
+ ✓ Compiled in 279ms (597 modules)
+ ✓ Compiled in 223ms (597 modules)
+ ✓ Compiled in 196ms (597 modules)
+ ✓ Compiled in 223ms (597 modules)
+ ✓ Compiled in 249ms (597 modules)
+ ✓ Compiled in 235ms (597 modules)
+ ✓ Compiled in 254ms (597 modules)
+ ✓ Compiled in 816ms (1698 modules)
+ ✓ Compiled in 486ms (1698 modules)
+ ✓ Compiled in 543ms (1698 modules)
+ ✓ Compiled in 242ms (597 modules)
+ ✓ Compiled in 1783ms (1698 modules)
+ ✓ Compiled in 259ms (597 modules)
+ ✓ Compiled in 247ms (597 modules)
+ ✓ Compiled in 1682ms (1698 modules)
+ ✓ Compiled in 229ms (597 modules)
+/c/Program Files/nodejs/npx: line 65:  1503 Killed                  "$NODE_EXE" "$NPX_CLI_JS" "$@"
+[?25h
