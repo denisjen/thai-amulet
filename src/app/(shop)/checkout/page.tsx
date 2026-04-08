@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useMemo } from "react";
+import { Suspense, useState, useEffect, useRef, useMemo } from "react";
 import { useCartStore } from "@/store/cart";
 import { useSession } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -18,6 +18,14 @@ const PAYMENT_METHODS = [
 const SKIP_PAYMENT_GATEWAY = true;
 
 export default function CheckoutPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-16">載入中...</div>}>
+      <CheckoutContent />
+    </Suspense>
+  );
+}
+
+function CheckoutContent() {
   const { data: session } = useSession();
   const router = useRouter();
   const searchParams = useSearchParams();

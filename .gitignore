@@ -40,3 +40,4 @@ next-env.d.ts
 
 # Private uploads
 /private/
+next-build.tar.gz

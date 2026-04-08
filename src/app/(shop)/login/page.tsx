@@ -1,7 +1,7 @@
 "use client";
 
 import { Suspense, useState } from "react";
-import { signIn } from "next-auth/react";
+import { signIn, getSession } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import toast from "react-hot-toast";
@@ -26,7 +26,24 @@ function LoginForm() {
     setLoading(false);
     if (result?.ok) {
       toast.success("登入成功");
-      router.push(callbackUrl);
+
+      // 嘗試取得 session（最多重試 3 次，確保 cookie 已寫入）
+      let session: any = null;
+      for (let i = 0; i < 3; i++) {
+        await new Promise((r) => setTimeout(r, 300));
+        session = await getSession();
+        if (session?.user) break;
+      }
+      console.log("[Login] session after signIn:", session);
+
+      if (session?.user?.role === "ADMIN" && !callbackUrl.startsWith("/admin")) {
+        router.push("/admin");
+      } else if (callbackUrl.startsWith("/admin") && !session?.user) {
+        // session 取不到但 callbackUrl 是 admin，直接跳轉讓 middleware 處理
+        router.push("/admin");
+      } else {
+        router.push(callbackUrl);
+      }
     } else {
       toast.error("帳號或密碼錯誤");
     }

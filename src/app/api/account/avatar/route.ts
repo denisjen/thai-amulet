@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
+import { saveFile, generateFileName } from "@/lib/upload";
 import { writeFile, mkdir } from "fs/promises";
 import { join } from "path";
-import { randomBytes } from "crypto";
 
 const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp", "image/gif"];
 const MAX_SIZE = 3 * 1024 * 1024; // 3MB
@@ -28,17 +28,21 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "檔案大小不得超過 3MB" }, { status: 400 });
     }
 
-    const ext = file.name.split(".").pop()?.toLowerCase() || "jpg";
-    const filename = `avatar-${session.user.id}-${randomBytes(6).toString("hex")}.${ext}`;
-    const uploadDir = join(process.cwd(), "public", "uploads", "avatars");
-    await mkdir(uploadDir, { recursive: true });
-
+    const fileName = `avatar-${session.user.id}-${generateFileName(file.name)}`;
     const buffer = Buffer.from(await file.arrayBuffer());
-    await writeFile(join(uploadDir, filename), buffer);
 
-    const avatarUrl = `/uploads/avatars/${filename}`;
+    let avatarUrl: string;
+    if (process.env.BLOB_READ_WRITE_TOKEN) {
+      // Vercel Blob
+      avatarUrl = await saveFile(buffer, fileName, "avatars");
+    } else {
+      // 本地儲存
+      const uploadDir = join(process.cwd(), "public", "uploads", "avatars");
+      await mkdir(uploadDir, { recursive: true });
+      await writeFile(join(uploadDir, fileName), buffer);
+      avatarUrl = `/uploads/avatars/${fileName}`;
+    }
 
-    // Save to database
     await prisma.user.update({
       where: { id: session.user.id! },
       data: { avatarUrl },

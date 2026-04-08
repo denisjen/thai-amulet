@@ -35,6 +35,7 @@ async function writeLoginLog(data: {
 }
 
 export const authConfig: NextAuthConfig = {
+  trustHost: true,
   providers: [
     GoogleProvider({
       clientId: process.env.AUTH_GOOGLE_ID!,
