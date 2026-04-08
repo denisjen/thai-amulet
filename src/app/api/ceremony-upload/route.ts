@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { saveFile, generateFileName, ALLOWED_TYPES, MAX_FILE_SIZE, ensureUploadDir } from "@/lib/upload";
 
+export const dynamic = "force-dynamic";
+
 export async function POST(req: NextRequest) {
   const session = await auth();
   if (!session?.user) {

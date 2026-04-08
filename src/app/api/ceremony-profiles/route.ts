@@ -3,6 +3,8 @@ import { prisma } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import { randomBytes } from "crypto";
 
+export const dynamic = "force-dynamic";
+
 function newCuid() {
   return "c" + randomBytes(11).toString("hex");
 }

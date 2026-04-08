@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import bcrypt from "bcryptjs";
 
+export const dynamic = "force-dynamic";
+
 export async function DELETE(
   req: NextRequest,
   { params }: { params: { id: string } }

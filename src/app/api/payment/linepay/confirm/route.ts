@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { linePayConfirm } from "@/lib/linepay";
 
+export const dynamic = "force-dynamic";
+
 /**
  * LINE Pay 付款成功後會以 GET redirect 至此，帶有：
  *   ?transactionId=xxx&orderId=yyy

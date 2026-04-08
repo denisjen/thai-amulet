@@ -3,6 +3,8 @@ import { prisma } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import { z } from "zod";
 
+export const dynamic = "force-dynamic";
+
 const discountSchema = z.object({
   code: z.string().min(3).max(20).toUpperCase(),
   description: z.string().optional(),

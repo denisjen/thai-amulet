@@ -4,6 +4,8 @@ import { auth } from "@/lib/auth";
 import { z } from "zod";
 import { slugify } from "@/lib/utils";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const category = searchParams.get("category");

@@ -3,6 +3,8 @@ import bcrypt from "bcryptjs";
 import { prisma } from "@/lib/db";
 import { z } from "zod";
 
+export const dynamic = "force-dynamic";
+
 const phoneSchema = z.object({
   type: z.literal("phone"),
   phone: z.string().regex(/^09\d{8}$/, "請輸入有效的台灣手機號碼"),

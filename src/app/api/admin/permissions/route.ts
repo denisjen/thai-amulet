@@ -4,6 +4,8 @@ import { prisma } from "@/lib/db";
 import { hasPermission } from "@/lib/permissions";
 import bcrypt from "bcryptjs";
 
+export const dynamic = "force-dynamic";
+
 /** GET: 取得所有 ADMIN 使用者及其權限 */
 export async function GET() {
   const session = await auth();

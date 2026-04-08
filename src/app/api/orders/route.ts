@@ -5,6 +5,8 @@ import { generateOrderNumber } from "@/lib/utils";
 import { z } from "zod";
 import { randomBytes } from "crypto";
 
+export const dynamic = "force-dynamic";
+
 const orderSchema = z.object({
   items: z.array(
     z.object({

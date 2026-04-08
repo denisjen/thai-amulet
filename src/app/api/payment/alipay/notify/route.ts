@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { verifyAlipayNotify } from "@/lib/alipay";
 
+export const dynamic = "force-dynamic";
+
 /**
  * Alipay 非同步通知（POST application/x-www-form-urlencoded）
  * 必須回傳純文字 "success" 表示接收成功

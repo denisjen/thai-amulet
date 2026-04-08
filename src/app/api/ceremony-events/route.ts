@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { z } from "zod";
 
+export const dynamic = "force-dynamic";
+
 const createSchema = z.object({
   name: z.string().min(1, "請填寫法事名稱"),
   eventDate: z.string().min(1, "請選擇法事日期"),

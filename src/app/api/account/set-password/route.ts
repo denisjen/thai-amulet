@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import bcrypt from "bcryptjs";
 
+export const dynamic = "force-dynamic";
+
 /** GET /api/account/set-password → 確認目前帳號是否尚未設定密碼 */
 export async function GET() {
   const session = await auth();

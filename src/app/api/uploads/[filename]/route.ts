@@ -4,6 +4,8 @@ import { UPLOAD_DIR } from "@/lib/upload";
 import path from "path";
 import fs from "fs";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(
   req: NextRequest,
   { params }: { params: { filename: string } }

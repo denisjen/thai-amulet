@@ -4,6 +4,8 @@ import { saveFile, generateFileName, ALLOWED_TYPES, MAX_FILE_SIZE } from "@/lib/
 import { writeFile, mkdir } from "fs/promises";
 import { join } from "path";
 
+export const dynamic = "force-dynamic";
+
 export async function POST(req: NextRequest) {
   const session = await auth();
   if ((session?.user as any)?.role !== "ADMIN") {

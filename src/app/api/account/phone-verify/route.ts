@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 
+export const dynamic = "force-dynamic";
+
 const ACCOUNT_SID = process.env.TWILIO_ACCOUNT_SID!;
 const AUTH_TOKEN = process.env.TWILIO_AUTH_TOKEN!;
 const SERVICE_SID = process.env.TWILIO_VERIFY_SERVICE_SID!;

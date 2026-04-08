@@ -3,6 +3,8 @@ import { prisma } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import { slugify } from "@/lib/utils";
 
+export const dynamic = "force-dynamic";
+
 async function checkAdmin() {
   const session = await auth();
   return (session?.user as any)?.role === "ADMIN";

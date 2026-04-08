@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { z } from "zod";
 
+export const dynamic = "force-dynamic";
+
 const addressSchema = z.object({
   name: z.string().min(1, "收件人姓名不得為空"),
   phone: z.string().min(1, "聯絡電話不得為空"),

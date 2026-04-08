@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
+export const dynamic = "force-dynamic";
+
 // POST /api/cvs/callback
 // ECPay logistics server posts the selected store info here.
 // We return HTML that posts the store data to the opener window, then closes.

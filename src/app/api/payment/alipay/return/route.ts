@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { verifyAlipayNotify } from "@/lib/alipay";
 
+export const dynamic = "force-dynamic";
+
 /**
  * Alipay 同步跳轉（GET，帶簽名參數）
  * 驗簽成功後導向訂單詳情頁

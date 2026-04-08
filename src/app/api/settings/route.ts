@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { auth } from "@/lib/auth";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const settings = await prisma.siteSettings.findUnique({ where: { id: "singleton" } });
   return NextResponse.json({ settings });

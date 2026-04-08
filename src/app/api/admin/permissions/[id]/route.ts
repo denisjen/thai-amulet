@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 import { hasPermission, ALL_PERMISSION_KEYS } from "@/lib/permissions";
 
+export const dynamic = "force-dynamic";
+
 /** PATCH: 更新指定管理員的權限 */
 export async function PATCH(
   req: NextRequest,

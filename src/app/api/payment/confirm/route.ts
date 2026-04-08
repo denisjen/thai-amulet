@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/db";
 
+export const dynamic = "force-dynamic";
+
 // 模擬付款確認 — 直接將訂單標記為已付款（跳過實際金流）
 export async function POST(req: NextRequest) {
   try {

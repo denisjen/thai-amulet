@@ -3,6 +3,8 @@ import { prisma } from "@/lib/db";
 import { sendPasswordResetEmail } from "@/lib/email";
 import crypto from "crypto";
 
+export const dynamic = "force-dynamic";
+
 export async function POST(req: NextRequest) {
   try {
     const { email } = await req.json();
