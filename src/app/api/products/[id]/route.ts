@@ -109,12 +109,20 @@ export async function DELETE(
   }
 
   try {
-    await prisma.product.update({
-      where: { id: params.id },
-      data: { isActive: false },
+    // 檢查是否有關聯訂單
+    const orderCount = await prisma.orderItem.count({
+      where: { productId: params.id },
     });
+    if (orderCount > 0) {
+      return NextResponse.json(
+        { error: `此商品已有 ${orderCount} 筆訂單紀錄，無法刪除。可改為停用。` },
+        { status: 409 }
+      );
+    }
+
+    await prisma.product.delete({ where: { id: params.id } });
     return NextResponse.json({ success: true });
-  } catch {
-    return NextResponse.json({ error: "刪除失敗" }, { status: 500 });
+  } catch (e: any) {
+    return NextResponse.json({ error: e.message || "刪除失敗" }, { status: 500 });
   }
 }

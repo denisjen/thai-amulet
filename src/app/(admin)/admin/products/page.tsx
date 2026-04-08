@@ -3,6 +3,7 @@ import { formatCurrency } from "@/lib/utils";
 import Link from "next/link";
 import ProductFilterBar from "@/components/admin/ProductFilterBar";
 import { checkPermission } from "@/lib/check-permission";
+import DeleteProductButton from "@/components/admin/DeleteProductButton";
 
 function getPublishStatus(product: any): { label: string; color: string } {
   const now = new Date();
@@ -231,13 +232,17 @@ export default async function AdminProductsPage({ searchParams }: PageProps) {
                       {rowStatus.label}
                     </span>
                   </td>
-                  <td className="px-4 py-3 text-center">
+                  <td className="px-4 py-3 text-center whitespace-nowrap">
                     <Link
                       href={`/admin/products/${product.id}/edit`}
                       className="text-amber-700 hover:underline text-xs"
                     >
                       編輯
                     </Link>
+                    <DeleteProductButton
+                      productId={product.id}
+                      productName={product.name}
+                    />
                   </td>
                 </tr>
               );
