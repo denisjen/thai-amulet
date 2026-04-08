@@ -3,6 +3,7 @@ import { prisma } from "@/lib/db";
 import { auth } from "@/lib/auth";
 import { generateOrderNumber } from "@/lib/utils";
 import { z } from "zod";
+import { randomBytes } from "crypto";
 
 const orderSchema = z.object({
   items: z.array(
@@ -231,7 +232,7 @@ export async function POST(req: NextRequest) {
               WHERE id = ${existing[0].id}
             `;
           } else {
-            const id = "c" + require("crypto").randomBytes(11).toString("hex");
+            const id = "c" + randomBytes(11).toString("hex");
             const now = new Date();
             await prisma.$executeRaw`
               INSERT INTO \`CeremonyProfile\`
