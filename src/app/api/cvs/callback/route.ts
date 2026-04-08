@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 // ECPay logistics server posts the selected store info here.
 // We return HTML that posts the store data to the opener window, then closes.
 export async function POST(req: NextRequest) {
-  let body: Record<string, string> = {};
+  const body: Record<string, string> = {};
 
   try {
     const text = await req.text();

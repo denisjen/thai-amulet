@@ -37,7 +37,7 @@ export default function AddressBook({ initialAddresses }: AddressBookProps) {
     if (editingId === null) {
       setAddresses(initialAddresses);
     }
-  }, [initialAddresses]); // eslint-disable-line react-hooks/exhaustive-deps // null = not editing, "new" = new form
+  }, [initialAddresses]); // eslint-disable-line react-hooks/exhaustive-deps
   const [form, setForm] = useState<AddressFormData>(emptyForm);
   const [saving, setSaving] = useState(false);
 
